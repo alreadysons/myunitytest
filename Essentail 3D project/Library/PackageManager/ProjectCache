@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638161826080000000
-    m_Hash: 1719789460
+      ticks: 638161899040000000
+    m_Hash: 1633098541
   m_LockFileStatus:
     m_FilePath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638161826110000000
-    m_Hash: 1755400957
+      ticks: 638161899040000000
+    m_Hash: 3072259616
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Packages
 m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.1
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 2.0.1
+  version: 2.0.3
   source: 1
-  resolvedPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Library/PackageCache/com.unity.collab-proxy@2.0.1
+  resolvedPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Library/PackageCache/com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -37,9 +37,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The package gives you the ability to use the Unity Version Control
-    in the Unity editor. To use Unity Version Control, a subscription is required.
-    Learn more about how you can get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -143,16 +143,104 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638125977010000000
+  datePublishedTicks: 638158826940000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
     version: 2.0.1
+    nextVersion: 
+- packageId: com.unity.connect.share@4.2.3
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.3
+  source: 1
+  resolvedPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Library/PackageCache/com.unity.connect.share@4.2.3
+  assetPath: Packages/com.unity.connect.share
+  name: com.unity.connect.share
+  displayName: WebGL Publisher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: tool
+  description: This tool allows you to make a WebGL build of your current project
+    and upload it to Unity's website, where it can be shared with others.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 1.0.2-preview
+    - 1.0.3-preview
+    - 1.0.4-preview
+    - 1.0.5-preview
+    - 1.0.6-preview.2
+    - 1.0.7-preview
+    - 1.0.8-preview
+    - 1.0.9-preview
+    - 1.0.10-preview
+    - 1.1.0-preview.1
+    - 1.2.0-preview.1
+    - 2.0.1-preview
+    - 2.0.2-preview.3
+    - 2.0.2-preview.4
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 3.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    compatible:
+    - 4.2.3
+    verified: 4.2.3
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  keywords:
+  - webgl
+  - share
+  - connect
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637695698090000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git
+    revision: 9a66a825d48494378f81fc94289eddd505df1c40
+    path: 
+  unityLifecycle:
+    version: 4.2.3
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -200,7 +288,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.17
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -378,7 +466,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -469,12 +557,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Library/PackageCache/com.unity.test-framework@1.1.31
+  resolvedPath: /Users/octopus/Documents/GitHub/myunitytest/Essentail 3D project/Library/PackageCache/com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -572,13 +660,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
     version: 1.1.31
@@ -3078,7 +3166,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
